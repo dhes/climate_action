@@ -58,7 +58,7 @@ body {
   min-height: 100vh;
 }
 .content-container {
-  display: flex;
+  /*display: flex;*/ /*removed by DH*/
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
@@ -341,7 +341,7 @@ h2 ~ p {
 }
 .hero-home {
   background-image: url(/images/rose.jpg);
-  background-position: center top;
+  background-position: left top;
 }
 .hero-content {
   color: #fff;
@@ -433,7 +433,7 @@ h2 ~ p {
   text-transform: uppercase;
 }
 .callout-copy {
-  flex: 0 0 45em;
+  flex: 1;
   font-size: 0.8rem;
   padding: 0 3vw;
 }
@@ -719,8 +719,8 @@ h2 ~ p {
     width: 100%;
   }*/
 }
-
-
-
-
-
+/* a red border on all boxes used for troubleshooting */
+/** { 
+  outline: 1px solid red;
+  outline-offset: -1px;
+}*/
